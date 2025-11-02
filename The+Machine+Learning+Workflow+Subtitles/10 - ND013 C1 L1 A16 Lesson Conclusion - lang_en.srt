@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:03,555
+You're now done with the machinery learning workflow lesson.
+
+2
+00:00:03,555 --> 00:00:08,100
+Congrats. This is the first step on your journey to become a self-driving car engineer.
+
+3
+00:00:08,100 --> 00:00:13,095
+In this lesson, you learned the basic principle of the machinery workflow.
+
+4
+00:00:13,095 --> 00:00:17,385
+From setting up a problem to choosing the best metrics.
+
+5
+00:00:17,385 --> 00:00:21,285
+You learned the importance of understanding your data-sets.
+
+6
+00:00:21,285 --> 00:00:24,540
+Finally, you also discovered the importance of
+
+7
+00:00:24,540 --> 00:00:29,280
+cross-validation and how to leverage it to select machinery models.
+
+8
+00:00:29,280 --> 00:00:31,365
+As machinery engineers say,
+
+9
+00:00:31,365 --> 00:00:34,310
+a model is as good as its data and
+
+10
+00:00:34,310 --> 00:00:37,475
+I cannot highlight enough how important this saying is.
+
+11
+00:00:37,475 --> 00:00:39,355
+As a machinery engineer,
+
+12
+00:00:39,355 --> 00:00:42,830
+you need to cherish your data and become one with it.
+
+13
+00:00:42,830 --> 00:00:44,045
+In the next lesson,
+
+14
+00:00:44,045 --> 00:00:46,745
+we will learn more about digital images.
+
+15
+00:00:46,745 --> 00:00:50,640
+The type of data we will focus on in this course.
+

@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:02,880
+When building a machinery model,
+
+2
+00:00:02,880 --> 00:00:06,600
+we want our model to generalize as well as possible.
+
+3
+00:00:06,600 --> 00:00:09,135
+Let's consider the following example.
+
+4
+00:00:09,135 --> 00:00:10,650
+In the first case,
+
+5
+00:00:10,650 --> 00:00:12,825
+shown by the graph on the left,
+
+6
+00:00:12,825 --> 00:00:18,540
+we fit a linear regression model to our dataset as shown by the blue line.
+
+7
+00:00:18,540 --> 00:00:20,175
+In the other case,
+
+8
+00:00:20,175 --> 00:00:21,615
+shown on the right,
+
+9
+00:00:21,615 --> 00:00:25,010
+we use a polynomial regression model which is
+
+10
+00:00:25,010 --> 00:00:27,845
+a much more complex machine learning model
+
+11
+00:00:27,845 --> 00:00:31,610
+and we observed that this model fits the data precisely.
+
+12
+00:00:31,610 --> 00:00:37,565
+However, how do you think each model is going to perform on new data?.
+
+13
+00:00:37,565 --> 00:00:41,000
+The linear regression model will better perform on
+
+14
+00:00:41,000 --> 00:00:45,980
+this new data because it's not fitting the original data as closely.
+
+15
+00:00:45,980 --> 00:00:51,640
+We will say that this model generalizes well to new data.
+
+16
+00:00:51,640 --> 00:00:57,950
+However, the polynomial regression model will not perform well on the new data.
+
+17
+00:00:57,950 --> 00:01:02,890
+We'll use the term overfitting to describe this behavior.
+
+18
+00:01:02,890 --> 00:01:06,470
+The challenge of machine learning lies in creating
+
+19
+00:01:06,470 --> 00:01:11,675
+a model that performs well on the available data without overfitting.
+
+20
+00:01:11,675 --> 00:01:15,985
+We'll cover these in depth in later sections.
+
+21
+00:01:15,985 --> 00:01:21,710
+From now on, we will use the term Training datasets to describe
+
+22
+00:01:21,710 --> 00:01:27,980
+the data that our models have been trained on and the term Test dataset
+
+23
+00:01:27,980 --> 00:01:31,475
+to describe data that has not been used during training.
+
+24
+00:01:31,475 --> 00:01:35,260
+We'll use the test dataset to solve this overfitting issue.
+
+25
+00:01:35,260 --> 00:01:36,869
+In the following videos,
+
+26
+00:01:36,869 --> 00:01:40,800
+we'll describe how to create such datasets.
+

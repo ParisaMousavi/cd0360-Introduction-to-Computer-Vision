@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:03,630
+Hi, and welcome to the first lesson of this course,
+
+2
+00:00:03,630 --> 00:00:06,390
+Introduction to the machinery workflow.
+
+3
+00:00:06,390 --> 00:00:10,980
+Together, we will take the step necessary for any machine learning project,
+
+4
+00:00:10,980 --> 00:00:14,160
+from the problem setup to the model-building phase,
+
+5
+00:00:14,160 --> 00:00:15,885
+and the error analysis.
+
+6
+00:00:15,885 --> 00:00:20,700
+This lesson will focus on the high-level component of any machine learning workflow,
+
+7
+00:00:20,700 --> 00:00:23,955
+and we will dive into the details later in the course.
+
+8
+00:00:23,955 --> 00:00:26,760
+First of all, what is machine learning?
+
+9
+00:00:26,760 --> 00:00:32,070
+A machine learning algorithm is a type of artificial intelligence or AI,
+
+10
+00:00:32,070 --> 00:00:36,285
+where a computer is learning how to extract information from data.
+
+11
+00:00:36,285 --> 00:00:38,589
+To train a machine learning algorithm,
+
+12
+00:00:38,589 --> 00:00:41,330
+we have to fit it with example data.
+
+13
+00:00:41,330 --> 00:00:45,200
+In this course, we'll be using a few different data-set.
+
+14
+00:00:45,200 --> 00:00:47,510
+But for now, we will focus on
+
+15
+00:00:47,510 --> 00:00:53,650
+the German traffic sign recognition benchmark or GTSRB data-set.
+
+16
+00:00:53,650 --> 00:00:56,615
+This data-set consists of thousands of
+
+17
+00:00:56,615 --> 00:01:00,320
+images of traffic sign with their associated labels.
+
+18
+00:01:00,320 --> 00:01:03,215
+We will focus on classifying these traffic signs
+
+19
+00:01:03,215 --> 00:01:06,515
+using different algorithm in the following lessons.
+
+20
+00:01:06,515 --> 00:01:10,610
+In this lesson, we'll use it as an example of a task you could
+
+21
+00:01:10,610 --> 00:01:15,750
+face in your future job as a machine learning engineer. Let's get started.
+

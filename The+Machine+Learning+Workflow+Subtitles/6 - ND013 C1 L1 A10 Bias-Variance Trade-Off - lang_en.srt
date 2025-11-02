@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:05,670
+Since we would like our algorithm to generalize to unseen dataset during training,
+
+2
+00:00:05,670 --> 00:00:11,295
+we're going to focus on the performance of our algorithm on the test dataset.
+
+3
+00:00:11,295 --> 00:00:14,070
+In particular, we are interested in
+
+4
+00:00:14,070 --> 00:00:19,235
+the test error which is the error rate of our model on the test dataset.
+
+5
+00:00:19,235 --> 00:00:23,545
+The test error can be decomposed into three terms.
+
+6
+00:00:23,545 --> 00:00:26,099
+The variance, the bias,
+
+7
+00:00:26,099 --> 00:00:29,420
+and epsilon which we will ignore for the moment.
+
+8
+00:00:29,420 --> 00:00:32,720
+The variance describes the amount by which
+
+9
+00:00:32,720 --> 00:00:37,400
+our model's parameters would change if we were to change the training data.
+
+10
+00:00:37,400 --> 00:00:42,700
+The bias describes how good our model is given the training data.
+
+11
+00:00:42,700 --> 00:00:44,825
+To minimize the test error,
+
+12
+00:00:44,825 --> 00:00:49,940
+we need to minimize both of bias and the variance which
+
+13
+00:00:49,940 --> 00:00:56,100
+means that we need our model to both perform well on the training data and the test data.
+
+14
+00:00:56,100 --> 00:00:59,150
+However, by minimizing the bias,
+
+15
+00:00:59,150 --> 00:01:04,175
+we tend to increase the variance because we are over-fitting the training data set.
+
+16
+00:01:04,175 --> 00:01:06,620
+Let's look at an example together.
+
+17
+00:01:06,620 --> 00:01:08,450
+We are fitting a model on
+
+18
+00:01:08,450 --> 00:01:12,590
+a particular dataset and we can control the complexity of this model.
+
+19
+00:01:12,590 --> 00:01:15,655
+For example, by increasing the number of parameters.
+
+20
+00:01:15,655 --> 00:01:18,620
+Well, as the model becomes more complex,
+
+21
+00:01:18,620 --> 00:01:22,340
+the bias in red decreases.
+
+22
+00:01:22,340 --> 00:01:26,240
+Our model has more capacity to fit the training data.
+
+23
+00:01:26,240 --> 00:01:33,130
+However, the variance in purple increases with the complexity as
+
+24
+00:01:33,130 --> 00:01:35,900
+our model becomes more and more specialized to
+
+25
+00:01:35,900 --> 00:01:40,090
+this dataset and loses its capacity to generalize.
+
+26
+00:01:40,090 --> 00:01:42,170
+If we sum both terms,
+
+27
+00:01:42,170 --> 00:01:45,480
+we obtain the test error in blue.
+
+28
+00:01:48,290 --> 00:01:52,100
+The blue curves show the existence of
+
+29
+00:01:52,100 --> 00:01:57,820
+an optimal complexity where the test error is minimized.
+
+30
+00:01:57,820 --> 00:02:02,210
+Well, this is what we call the bias-variance trade-off.
+
+31
+00:02:02,210 --> 00:02:05,090
+You want your model to be complex enough to have
+
+32
+00:02:05,090 --> 00:02:11,130
+a low bias but not too complex so that you can still generalize to unseen data.
+
