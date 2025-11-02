@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:04,035
+The machine learning workflow is always following these steps.
+
+2
+00:00:04,035 --> 00:00:07,125
+First, we need to frame the problem.
+
+3
+00:00:07,125 --> 00:00:09,735
+What are we trying to achieve here?
+
+4
+00:00:09,735 --> 00:00:13,125
+Why? Who cares about this problem?
+
+5
+00:00:13,125 --> 00:00:15,510
+Do we even need machine learning?
+
+6
+00:00:15,510 --> 00:00:17,925
+Once we have answered this question,
+
+7
+00:00:17,925 --> 00:00:20,025
+we need to focus on data.
+
+8
+00:00:20,025 --> 00:00:22,200
+How much data do we need?
+
+9
+00:00:22,200 --> 00:00:24,195
+Is it easy to obtain?
+
+10
+00:00:24,195 --> 00:00:26,640
+How much processing is required?
+
+11
+00:00:26,640 --> 00:00:28,725
+When our data set is ready,
+
+12
+00:00:28,725 --> 00:00:30,525
+we can focus on the model.
+
+13
+00:00:30,525 --> 00:00:33,270
+Which approach is best for this problem?
+
+14
+00:00:33,270 --> 00:00:35,430
+What are the constraints?
+
+15
+00:00:35,430 --> 00:00:38,730
+For example, are limited because of the hardware?
+
+16
+00:00:38,730 --> 00:00:42,820
+We then have a feedback loop between data and model.
+
+17
+00:00:42,820 --> 00:00:47,995
+We can use the model predictions to decide if we need more data or not for example.
+
+18
+00:00:47,995 --> 00:00:50,665
+Let's go back to the traffic sign data set.
+
+19
+00:00:50,665 --> 00:00:52,295
+In this machine learning problem,
+
+20
+00:00:52,295 --> 00:00:56,150
+we are trying to classify traffic signs just by using images.
+
+21
+00:00:56,150 --> 00:01:01,880
+The available data, consisting thousands of images for each type of traffic sign.
+
+22
+00:01:01,880 --> 00:01:05,170
+As for the model, we will experiment with different algorithm,
+
+23
+00:01:05,170 --> 00:01:08,999
+such as logistic regression and neural networks.
+
